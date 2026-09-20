@@ -1,0 +1,19 @@
+{
+  "name": "groww-trading-bot",
+  "version": "1.0.0",
+  "description": "Groww API trading project",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.9.2"
+  }
+}
